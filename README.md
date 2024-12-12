@@ -14,7 +14,7 @@ The code may change, if you want to have the latest version don't forget to run 
 
 ## Using the drone
 ```rust
-use rusty_drones::drone::RustyDrone;
+use rusty_drones::RustyDrone;
 use wg_2024::drone::Drone;
 
 fn main() {
