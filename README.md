@@ -10,7 +10,7 @@ And obviously it is required to import the class repo for example like this:
 ```toml
 wg_2024 = { git = "https://github.com/WGL-2024/WGL_repo_2024.git" }
 ```
-The code may change, if you want to have the latest version don't forget to do `cargo update` periodically maybe preceded by `cargo clean`.
+The code may change, if you want to have the latest version don't forget to run `cargo update` periodically.
 
 ## Using the drone
 ```rust
