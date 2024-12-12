@@ -1,4 +1,4 @@
-mod drone;
+pub mod drone;
 mod integration_testing;
 
 #[macro_export]
@@ -10,5 +10,3 @@ macro_rules! extract {
         }
     };
 }
-
-pub use drone::RustyDrone;
